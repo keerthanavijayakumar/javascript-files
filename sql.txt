@@ -1,0 +1,13 @@
+select * from coms_development.sku_building;
+select * from coms_development.order_sku where sku_id=20751;
+
+select * from coms_development.order_sku chassis join  sku id_category where sku_id=20751;
+select * from coms_development.order_sku chassis;
+
+
+SELECT  sku.id, sku.name as SPECS ,order_sku.order_id FROM coms_development.order_sku 
+INNER JOIN coms_development.sku ON coms_development.order_sku.sku_id = coms_development.sku.id where order_id=17755;
+
+
+SELECT  sku.id, sku.name as SPECS ,order_sku.order_id FROM coms_development.order_sku 
+INNER JOIN coms_development.sku ON coms_development.order_sku.sku_id = coms_development.sku.id where coms_development.order_sku.order_id=17755 order by sku.id

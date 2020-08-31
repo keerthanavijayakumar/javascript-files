@@ -1,0 +1,40 @@
+<html>
+	<head>
+	<h1> DATE AND TIME</h1>
+		<script type="text/javascript">
+			var month=new Array(12);
+				month[0]="JAN";
+				month[1]="FEB";
+				month[2]="MAR";
+				month[3]="APR";
+				month[4]="MAY";
+				month[5]="JUN";
+				month[6]="JUL";
+				month[7]="AUG";
+				month[8]="SEP";
+				month[9]="OCT";
+				month[10]="NOV";
+				month[11]="DEC";
+			var days=Array(7);
+				days[0]="SUNDAY";
+				days[1]="MONDAY";
+				days[2]="TUESDAY";
+				days[3]="WEDNESDAY";
+				days[4]="THURSDAY";
+				days[5]="FRIAY";
+				days[6]="SATURDAY";
+			
+			function customdate(a)
+			{
+			var daywds=days[a.getDay[]];
+			alert(daywds);
+			var date=a.getDate();
+			alert(date);
+			}
+						
+		</script>
+	</head>
+	<body>
+		<script>document.write(customdate(new Date()));</script>
+	</body>
+</html>

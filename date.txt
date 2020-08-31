@@ -1,0 +1,12 @@
+<html>
+<body>
+<script>
+function date()
+{
+ date=new Date();
+ hours=data.getHours();
+ minutes=date.getMinutes();
+ second=date.getSeconds();
+</script>
+</body>
+</html>
